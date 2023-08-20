@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+/* começar 1 pelo menu */
+.menu {
+    width: 15%;
+    background-color: #2b94949a;
+    /* alterando  padding*/
+    padding: 0 0 40px 1%;  
+    height: auto;
+    margin: 4px;
+}
+
+/* menu */
+.btn-expandir {
+    width: 100%;
+    padding-left: -2px;
+}
+/* menu-lista */
+.btn-expandir  .menu-list{
+    color: #f1f1f1;
+    font-size: 24px;
+    cursor: not-allowed;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    position: relative;
+    left: -48px;
+}
+
+ul li.item-menu{
+    transition: 2s;
+}
+
+ul li.item-menu:hover{
+    background: #1c5e5e9a;
+}
+
+ul li.item-menu a{
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 4%;
+    display: flex;
+    margin-bottom: 5px;
+    line-height: 14px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 15px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 25px;
+}
+/* começar em 3 no logo */
+.header {
+    background-color: rgb(7 156 181 / 91%);
+    min-height: 150px;
+    /* alterando header */
+    margin: 4px;
+    min-height: 150px;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 6px;
+    align-items: center;
+}
+/* imagem do header */
+img.img-header {
+    background: #29c9dc;
+    width: 990px;
+    aspect-ratio: auto 990 / 135;
+    height: 135px;
+}
+
+
+.content {
+    background-color: #6dfed7;
+    min-height: 300px;
+    padding: 20px;
+    /* alterando content */
+    margin: 4px;
+}
+
+img#img-content-1 {
+    display: flex;
+    margin: auto;
+    width: 99%;
+    height: 40%;
+    border-radius: 17px 17px 335px 17px;
+    border: -11px solid olivedrab;
+    box-shadow: -6px 0px 11px 0px;
+}
+
+.seja-beem-v {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #575757;
+}
+
+p {
+    text-indent: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+mark {
+    background-color: #6bd1afb8;
+    color: #575757;
+}
+
+.elementor-vdo {
+    display: flex;
+    justify-content: center;
+    background: #f5f5f57a;
+    padding: 10px;
+}
+
+/* começar no 2 rodapé */
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+    /* alterando footer */
+    margin: 4px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cs-w {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: -15px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}a {
+    font-size: 16px;
+}
